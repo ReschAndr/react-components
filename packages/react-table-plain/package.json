@@ -1,6 +1,6 @@
 {
   "name": "reschandr-lerna-test-2",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A NPM package that helps creating HTML tables in a React-way.",
   "main": "lib/index.js",
   "scripts": {
