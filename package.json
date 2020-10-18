@@ -1,6 +1,5 @@
 {
     "name": "mvp-react-monorepo",
-    "private": true,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ReschAndr/react-components.git"
@@ -12,7 +11,7 @@
         "setup": "npx lerna bootstrap"
     },
     "devDependencies": {
-        "lerna": "^3.10.2"
+        "lerna": "^3.22.1"
     },
     "workspaces": {
         "packages": [
