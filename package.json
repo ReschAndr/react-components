@@ -1,6 +1,10 @@
 {
     "name": "mvp-react-monorepo",
     "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ReschAndr/react-components.git"
+      },
     "scripts": {
         "publish": "lerna publish",
         "start": "lerna run start --parallel",

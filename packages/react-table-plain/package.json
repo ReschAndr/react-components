@@ -69,5 +69,6 @@
       "c**/?(*.)(spec|test).ts?(x)"
     ],
     "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
-  }
+  },
+  "gitHead": "c9a726deb80ba9a4ee386b6f4eada21238467b00"
 }
