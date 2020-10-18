@@ -1,7 +1,8 @@
 {
-    "name": "ui-monorepo",
+    "name": "mvp-react-monorepo",
     "private": true,
     "scripts": {
+        "publish": "lerna publish",
         "start": "lerna run start --parallel",
         "start:hooks": "lerna run start --scope @ui/react-app-hooks --scope @ui/shared --parallel",
         "setup": "npx lerna bootstrap"
