@@ -1,6 +1,6 @@
 {
   "name": "@mvp-react/react-table-mui",
-  "version": "1.0.2",
+  "version": "0.0.7",
   "description": "A Material-UI implementation of react-table-plain",
   "main": "lib/index.js",
   "scripts": {
@@ -32,8 +32,8 @@
   },
   "homepage": "https://github.com/ReschAndr/react-components/packages/react-table-mui#readme",
   "dependencies": {
-    "lodash": "^4.17.11",
-    "@mvp-react/react-table-plain": "*"
+    "@mvp-react/react-table-plain": "^0.0.7",
+    "lodash": "^4.17.11"
   },
   "peerDependencies": {
     "react": "^16.6.3",
