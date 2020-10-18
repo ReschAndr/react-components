@@ -71,5 +71,9 @@
       "c**/?(*.)(spec|test).ts?(x)"
     ],
     "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "78458d4960eb9bddb671518bea7b2bb943ff08b6"
 }

@@ -70,5 +70,8 @@
     ],
     "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
   },
-  "gitHead": "6c3552cbfee769c22537c98d0c8487e41391b881"
+  "gitHead": "78458d4960eb9bddb671518bea7b2bb943ff08b6",
+  "publishConfig": {
+    "access": "public"
+  }
 }
