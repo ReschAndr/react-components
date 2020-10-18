@@ -1,15 +1,14 @@
 {
-  "name": "@mvp-react/react-table-plain",
-  "version": "0.0.6",
-  "description": "A NPM package that helps creating HTML tables in a React-way.",
+  "name": "@mvp-react/react-table-mui",
+  "version": "1.0.2",
+  "description": "A Material-UI implementation of react-table-plain",
   "main": "lib/index.js",
   "scripts": {
     "watch": "tsc --watch",
     "build": "run-s lint test transpile",
     "transpile": "tsc",
     "lint": "tslint ./src/**/*.ts*",
-    "test": "jest --runInBand --coverage",
-    "test:watch": "jest --runInBand --watch"
+    "test": "jest --runInBand --coverage"
   },
   "repository": {
     "type": "git",
@@ -31,29 +30,32 @@
   "bugs": {
     "url": "https://github.com/ReschAndr/react-components/issues"
   },
-  "homepage": "https://github.com/ReschAndr/react-components/packages/react-table-plain#readme",
+  "homepage": "https://github.com/ReschAndr/react-components/packages/react-table-mui#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.11",
+    "@mvp-react/react-table-plain": "*"
   },
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.3",
-    "@types/lodash": "^4.14.157",
-    "@types/react": "^16.9.41",
-    "@types/react-dom": "^16.9.8",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "jest": "^26.1.0",
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@types/jest": "^23.3.14",
+    "@types/lodash": "^4.14.123",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "jest": "^23.6.0",
     "npm-run-all": "^4.1.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "tslint": "^6.1.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "tslint": "^5.16.0",
     "tslint-config-prettier": "^1.18.0",
-    "tslint-react": "^5.0.0",
-    "typescript": "^3.9.6"
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.4.5"
   },
   "jest": {
     "moduleFileExtensions": [
@@ -69,6 +71,5 @@
       "c**/?(*.)(spec|test).ts?(x)"
     ],
     "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
-  },
-  "gitHead": "6c3552cbfee769c22537c98d0c8487e41391b881"
+  }
 }
