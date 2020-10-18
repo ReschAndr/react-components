@@ -13,7 +13,7 @@ export class TablePlain extends React.Component<TableProps, IState> {
     showSubComponent: {}
   };
 
-  // test
+  // test 2
 
   get rootElement() {
     return this.props.rootElement || "table";

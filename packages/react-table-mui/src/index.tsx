@@ -21,6 +21,8 @@ export const tableMuiTheme = {
   renderSortLabel: (colDef: IColDef, desc: boolean) => (
     <TableSortLabel active direction={desc ? "desc" : "asc"} />
   ),
+
+  // test
   renderExpansionIndicator: (expanded: boolean) => (
     <IconButton
       style={{

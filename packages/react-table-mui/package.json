@@ -1,5 +1,5 @@
 {
-  "name": "test-random-shit-2",
+  "name": "reschandr-lerna-test-1",
   "version": "0.0.9",
   "description": "A Material-UI implementation of react-table-plain",
   "main": "lib/index.js",
@@ -75,5 +75,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "c4923975b27cba4e3b0ab7126cdafa0428f394a2"
+  "gitHead": "f9b707e3e712890e3e925137d4af3a75e0693071"
 }

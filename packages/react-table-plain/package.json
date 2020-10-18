@@ -1,5 +1,5 @@
 {
-  "name": "test-random-shit-1",
+  "name": "reschandr-lerna-test-2",
   "version": "0.0.9",
   "description": "A NPM package that helps creating HTML tables in a React-way.",
   "main": "lib/index.js",
@@ -70,7 +70,7 @@
     ],
     "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
   },
-  "gitHead": "c4923975b27cba4e3b0ab7126cdafa0428f394a2",
+  "gitHead": "f9b707e3e712890e3e925137d4af3a75e0693071",
   "publishConfig": {
     "access": "public"
   }
