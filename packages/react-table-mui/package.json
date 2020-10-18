@@ -1,5 +1,5 @@
 {
-  "name": "@mvp-react/react-table-mui",
+  "name": "test-random-shit-2",
   "version": "0.0.8",
   "description": "A Material-UI implementation of react-table-plain",
   "main": "lib/index.js",
@@ -75,5 +75,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "78458d4960eb9bddb671518bea7b2bb943ff08b6"
+  "gitHead": "c4923975b27cba4e3b0ab7126cdafa0428f394a2"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@mvp-react/react-table-plain",
+  "name": "test-random-shit-1",
   "version": "0.0.8",
   "description": "A NPM package that helps creating HTML tables in a React-way.",
   "main": "lib/index.js",
@@ -70,7 +70,7 @@
     ],
     "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
   },
-  "gitHead": "78458d4960eb9bddb671518bea7b2bb943ff08b6",
+  "gitHead": "c4923975b27cba4e3b0ab7126cdafa0428f394a2",
   "publishConfig": {
     "access": "public"
   }
