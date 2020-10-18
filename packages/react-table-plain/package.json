@@ -1,6 +1,6 @@
 {
   "name": "test-random-shit-1",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A NPM package that helps creating HTML tables in a React-way.",
   "main": "lib/index.js",
   "scripts": {
