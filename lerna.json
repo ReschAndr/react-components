@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "npmClient": "yarn",
   "command": {
     "publish": {
@@ -9,7 +9,7 @@
       ],
       "message": "chore(release): publish",
       "registry": "https://npm.pkg.github.com",
-      "npmClient":"npm"
+      "npmClient": "npm"
     },
     "bootstrap": {
       "ignore": "component-*",
