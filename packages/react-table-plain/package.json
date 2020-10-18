@@ -1,0 +1,73 @@
+{
+  "name": "react-table-plain",
+  "version": "0.0.1",
+  "description": "A NPM package that helps creating HTML tables in a React-way.",
+  "main": "lib/index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "run-s lint test transpile",
+    "transpile": "tsc",
+    "lint": "tslint ./src/**/*.ts*",
+    "test": "jest --runInBand --coverage",
+    "test:watch": "jest --runInBand --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReschAndr/react-components.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "react",
+    "table",
+    "sorting",
+    "filter",
+    "paging",
+    "javascrip",
+    "typescript"
+  ],
+  "author": "ReschAndr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReschAndr/react-components/issues"
+  },
+  "homepage": "https://github.com/ReschAndr/react-components/packages/react-table-plain#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/lodash": "^4.14.157",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^26.1.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^5.0.0",
+    "typescript": "^3.9.6"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/**/*.ts?(x)",
+      "c**/?(*.)(spec|test).ts?(x)"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
+  }
+}
