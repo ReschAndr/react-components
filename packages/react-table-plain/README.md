@@ -1,12 +1,12 @@
-# react-table-plain &middot; ![travis build](https://img.shields.io/travis/react-table-plain.svg) ![npm version](https://img.shields.io/npm/v/react-table-plain.svg)
+# @mvp-react/react-table-plain &middot; ![travis build](https://img.shields.io/travis/@mvp-react/react-table-plain.svg) ![npm version](https://img.shields.io/npm/v/@mvp-react/react-table-plain.svg)
 
 A NPM package that helps creating HTML tables in a React-way. It was partly inspired by [react-table](https://react-table.js.org).
 
-react-table-plain is written in [Typescript](https://www.typescriptlang.org/) and comes with its own type definitions.
+@mvp-react/react-table-plain is written in [Typescript](https://www.typescriptlang.org/) and comes with its own type definitions.
 
 ## Installation
 
-You should install [react-table-plain with npm or yarn](https://www.npmjs.com/package/react-table-plain):
+You should install [@mvp-react/react-table-plain with npm or yarn](https://www.npmjs.com/package/@mvp-react/react-table-plain):
 
     npm install react-table-plain
     or
@@ -18,7 +18,7 @@ This command will download and install react-table-plain and all required depend
 
 ```javascript
 import React from "react";
-import { TablePlain } from "react-table-plain";
+import { TablePlain } from "@mvp-react/react-table-plain";
 
 function App() {
   return (
@@ -44,7 +44,7 @@ function App() {
 }
 ```
 
-[![Edit react-table-plain mini](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/1o5m67xz5j)
+<!-- [![Edit react-table-plain mini](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/1o5m67xz5j) -->
 
 ## Properties
 
@@ -85,7 +85,7 @@ function App() {
 
 ### Sorting
 
-react-table-plain supports sorting by a single column.
+@mvp-react/react-table-plain supports sorting by a single column.
 
 ```javascript
 class App extends React.Component {
@@ -139,7 +139,7 @@ function sortData(data, prop, desc) {
 }
 ```
 
-[![Edit react-table-plain sort](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/305v98omy5)
+<!-- [![Edit @mvp-react/react-table-plain sort](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/305v98omy5) -->
 
 **IMPORTANT:** react-table-plain doesn't do the sorting. It just displays the data.
 The caller is responsible for sorting the data.
@@ -154,7 +154,7 @@ You can set the props of each row, depending on the data for each row. For examp
 
 ```javascript
 import React from "react";
-import { TablePlain } from "react-table-plain";
+import { TablePlain } from "@mvp-react/react-table-plain";
 
 function App() {
   return (
@@ -183,7 +183,7 @@ function App() {
 }
 ```
 
-[![Edit react-table-plain rowProps](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/18vv15mo84)
+<!-- [![Edit @mvp-react/react-table-plain rowProps](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/18vv15mo84) -->
 
 ### Fixed Column width
 
@@ -208,7 +208,7 @@ colDef={[{
   }]}
 ```
 
-[![Edit react-table-plain rowProps](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/l39m51vk1z)
+<!-- [![Edit @mvp-react/react-table-plain rowProps](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/l39m51vk1z) -->
 
 The total of all widths is 100% of the table width and each column is sized according to the width value. Like:
 
@@ -247,7 +247,7 @@ colDef={[
 ]}
 ```
 
-[![Edit react-table-plain rowProps](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/y0jorjqp41)
+<!-- [![Edit @mvp-react/react-table-plain rowProps](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/y0jorjqp41) -->
 
 The `handleChange` callback enables the table to collect all filter values and provide them to you.
 
@@ -283,7 +283,7 @@ handleFilterChange = (col, val) => {
 }
 ```
 
-[![Edit react-table-plain external filter](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/92z0klrvmp)
+<!-- [![Edit @mvp-react/react-table-plain external filter](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/92z0klrvmp) -->
 
 ### Cell properties for all cells
 
@@ -354,7 +354,7 @@ function selectedRowProps(data) {
 />;
 ```
 
-[![Edit react-table-plain single-line-selection](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/0y5k9y0pjv?fontsize=14)
+<!-- [![Edit @mvp-react/react-table-plain single-line-selection](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/0y5k9y0pjv?fontsize=14) -->
 
 #### Multi-Line-Selection
 
@@ -403,7 +403,7 @@ function handleSelectionChange(data) {
 />;
 ```
 
-[![Edit react-table-plain multi-line-selection](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/oxxw81kmnz?fontsize=14)
+<!-- [![Edit @mvp-react/react-table-plain multi-line-selection](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/oxxw81kmnz?fontsize=14) -->
 
 ### Content styling
 
@@ -412,13 +412,13 @@ function handleSelectionChange(data) {
 You can always set cell properties with `props: () => ({style: {textAlign: "right"}})` to achive alignment of the cell content.
 To make things easier we introduced the `align` property, that aligns header, body and footer cell content.
 
-[![Edit react-table-plain align](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/oxnvn95lz)
+<!-- [![Edit @mvp-react/react-table-plain align](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/oxnvn95lz) -->
 
 #### Ellipsis
 
 This setting applies to all body cells.
 
-[![Edit react-table-plain table-wide cell props](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/v32l3qo010)
+<!-- [![Edit @mvp-react/react-table-plain table-wide cell props](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/v32l3qo010) -->
 
 ### Subcomponent
 
@@ -432,4 +432,4 @@ TODO
 
 ### License
 
-react-table-plain is [MIT licensed](https://github.com/facebook/react/blob/master/LICENSE)
+@mvp-react/react-table-plain is [MIT licensed](https://github.com/facebook/react/blob/master/LICENSE)
