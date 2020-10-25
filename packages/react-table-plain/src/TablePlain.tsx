@@ -7,6 +7,8 @@ interface IState {
   showSubComponent: object;
 }
 
+// test
+
 export class TablePlain extends React.Component<TableProps, IState> {
   state = {
     filter: this.props.defaultFilter || {},
