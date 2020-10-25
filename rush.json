@@ -39,6 +39,18 @@
       "projectFolder": "packages/react-table-mui",
       "reviewCategory": "production",
       "shouldPublish": true
+    },
+    {
+      "packageName": "@mvp-react/react-datagrid-plain",
+      "projectFolder": "packages/react-datagrid-plain",
+      "reviewCategory": "production",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@mvp-react/react-table-semantic-ui",
+      "projectFolder": "packages/react-table-semantic-ui",
+      "reviewCategory": "production",
+      "shouldPublish": true
     }
   ]
 }
