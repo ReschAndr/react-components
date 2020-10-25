@@ -1,15 +1,14 @@
 {
-  "name": "@mvp-react/react-table-plain",
+  "name": "@mvp-react/react-table-mui",
   "version": "0.1.1",
-  "description": "A NPM package that helps creating HTML tables in a React-way.",
+  "description": "A Material-UI implementation of react-table-plain",
   "main": "lib/index.js",
   "scripts": {
     "watch": "tsc --watch",
     "build": "run-s lint test transpile",
     "transpile": "tsc",
     "lint": "tslint ./src/**/*.ts*",
-    "test": "jest --runInBand --coverage",
-    "test:watch": "jest --runInBand --watch"
+    "test": "jest --runInBand --coverage"
   },
   "repository": {
     "type": "git",
@@ -29,17 +28,20 @@
   "author": "Stephan Meißner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ReschAndr/react-components/issues"
+    "url": "https://github.com/ReschAndr/react-components/packages/react-table-mui/issues"
   },
-  "homepage": "https://github.com/ReschAndr/react-components/packages/react-table-plain#readme",
+  "homepage": "https://github.com/ReschAndr/react-components/packages/react-table-mui#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "@mvp-react/react-table-plain":"workspace:*"
   },
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
     "@types/jest": "^26.0.3",
     "@types/lodash": "^4.14.157",
     "@types/react": "^16.9.41",

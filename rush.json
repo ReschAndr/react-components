@@ -33,6 +33,12 @@
       "projectFolder": "packages/react-table-plain",
       "reviewCategory": "production",
       "shouldPublish": true
+    },
+    {
+      "packageName": "@mvp-react/react-table-mui",
+      "projectFolder": "packages/react-table-mui",
+      "reviewCategory": "production",
+      "shouldPublish": true
     }
   ]
 }
