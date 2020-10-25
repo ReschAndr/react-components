@@ -16,7 +16,7 @@
     "versionBumpCommitMessage": "Applying package updates. [skip-ci]"
   },
   "repository": {
-    "url": "https://github.com/microsoft/rush-example",
+    "url": "https://github.com/ReschAndr/react-components.git",
     "defaultBranch": "master",
     "defaultRemote": "origin"
   },
