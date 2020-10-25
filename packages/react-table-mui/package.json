@@ -32,8 +32,8 @@
   },
   "homepage": "https://github.com/ReschAndr/react-components/packages/react-table-mui#readme",
   "dependencies": {
-    "lodash": "^4.17.15",
-    "@mvp-react/react-table-plain":"workspace:*"
+    "@mvp-react/react-table-plain": "workspace:*",
+    "lodash": "^4.17.15"
   },
   "peerDependencies": {
     "react": "^16.13.1",
