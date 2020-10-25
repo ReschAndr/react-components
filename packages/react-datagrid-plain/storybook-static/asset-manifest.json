@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/ReschAndr/react-components/packages//react-datagrid-plainmain.192f3d14e15c044f7b02.bundle.js",
+    "main.js.map": "/ReschAndr/react-components/packages//react-datagrid-plainmain.192f3d14e15c044f7b02.bundle.js.map",
+    "runtime~main.js": "/ReschAndr/react-components/packages//react-datagrid-plainruntime~main.192f3d14e15c044f7b02.bundle.js",
+    "runtime~main.js.map": "/ReschAndr/react-components/packages//react-datagrid-plainruntime~main.192f3d14e15c044f7b02.bundle.js.map",
+    "vendors~main.js": "/ReschAndr/react-components/packages//react-datagrid-plainvendors~main.192f3d14e15c044f7b02.bundle.js",
+    "vendors~main.js.map": "/ReschAndr/react-components/packages//react-datagrid-plainvendors~main.192f3d14e15c044f7b02.bundle.js.map",
+    "../.storybook/dist/src/DataGridPlain.d.ts": "/ReschAndr/react-components/packages//react-datagrid-plain../.storybook/dist/src/DataGridPlain.d.ts",
+    "../.storybook/dist/src/useDataState.d.ts": "/ReschAndr/react-components/packages//react-datagrid-plain../.storybook/dist/src/useDataState.d.ts",
+    "../.storybook/dist/stories/index.stories.d.ts": "/ReschAndr/react-components/packages//react-datagrid-plain../.storybook/dist/stories/index.stories.d.ts",
+    "iframe.html": "/ReschAndr/react-components/packages//react-datagrid-plainiframe.html",
+    "precache-manifest.b59104b395a5fdcad7d5a2453bdf6127.js": "/ReschAndr/react-components/packages//react-datagrid-plainprecache-manifest.b59104b395a5fdcad7d5a2453bdf6127.js",
+    "service-worker.js": "/ReschAndr/react-components/packages//react-datagrid-plainservice-worker.js",
+    "vendors~main.192f3d14e15c044f7b02.bundle.js.LICENSE.txt": "/ReschAndr/react-components/packages//react-datagrid-plainvendors~main.192f3d14e15c044f7b02.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.192f3d14e15c044f7b02.bundle.js",
+    "vendors~main.192f3d14e15c044f7b02.bundle.js",
+    "main.192f3d14e15c044f7b02.bundle.js"
+  ]
+}

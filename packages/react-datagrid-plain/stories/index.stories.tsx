@@ -183,17 +183,17 @@ storiesOf("DataGridMui", module).add("simple", () => (
       handleChangeRowsPerPage,
     }) => (
       <TablePagination
-        component={(ps) => <div {...ps}>{ps.children}</div>}
+        component={(ps:any) => <div {...ps}>{ps.children}</div>}
         colSpan={demoColDefs != null ? demoColDefs.length : 1}
         count={total}
         rowsPerPage={rowsPerPage}
         page={page}
-        onChangePage={(e, p) => handleChangePage(p)}
-        onChangeRowsPerPage={(e) =>
+        onChangePage={(e:any, p:any) => handleChangePage(p)}
+        onChangeRowsPerPage={(e:any) =>
           handleChangeRowsPerPage(parseInt(e.target.value, 10))
         }
         labelRowsPerPage={"Einträge pro Seite:"}
-        labelDisplayedRows={({ from, to, count }) =>
+        labelDisplayedRows={({ from, to, count }:any) =>
           `${from}-${to} von ${count}`
         }
       />
@@ -212,7 +212,7 @@ storiesOf("DataGridSemanticUI", module).add("simple", () => (
         res({ total: sampleData1.length, data: sampleData1 })
       )
     }
-    renderTable={(ps) => <TablePlain {...tableSemanticUITheme} {...ps} />}
+    renderTable={(ps:any) => <TablePlain {...tableSemanticUITheme} {...ps} />}
     renderPaging={() => <small>Kein Paging in Semantic-UI momentan.</small>}
   />
 ));
