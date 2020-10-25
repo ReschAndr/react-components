@@ -1,0 +1,22 @@
+{
+  "name": "@mvp-react/react-table-mui",
+  "entries": [
+    {
+      "version": "0.1.2",
+      "tag": "@mvp-react/react-table-mui_v0.1.2",
+      "date": "Sun, 25 Oct 2020 15:02:41 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "switch from lerna to rush"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-plain\" to `0.1.2`"
+          }
+        ]
+      }
+    }
+  ]
+}
