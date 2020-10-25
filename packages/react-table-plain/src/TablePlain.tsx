@@ -5,7 +5,6 @@ import { some, sumBy } from "lodash";
 interface IState {
   filter: any;
   showSubComponent: object;
-  test?:any;
 }
 
 // test
