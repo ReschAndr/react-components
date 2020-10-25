@@ -31,7 +31,8 @@
     {
       "packageName": "@mvp-react/react-table-plain",
       "projectFolder": "packages/react-table-plain",
-      "reviewCategory": "production"
+      "reviewCategory": "production",
+      "shouldPublish": true
     }
   ]
 }
