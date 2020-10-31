@@ -1,10 +1,10 @@
-<!-- # react-datagrid-plain &middot; ![travis build](https://img.shields.io/travis/DCCS-IT-Business-Solutions/react-datagrid-plain.svg) ![npm version](https://img.shields.io/npm/v/@dccs/react-datagrid-plain.svg) -->
+<!-- # react-datagrid-plain &middot; ![travis build](https://img.shields.io/travis/mvp-react/react-datagrid-plain.svg) ![npm version](https://img.shields.io/npm/v/@mvp-react/react-datagrid-plain.svg) -->
 
 A light datagrid build upon react-table-mui for React.
 
 ## Installation
 
-You should install [react-datagrid-plain with npm or yarn](https://www.npmjs.com/package/@dccs/react-datagrid-plain):
+You should install [react-datagrid-plain with npm or yarn](https://www.npmjs.com/package/@mvp-react/react-datagrid-plain):
 
     npm install @mvp-react/react-datagrid-plain
     or

@@ -2,8 +2,8 @@
 
 A npm package that implements react-table-plain for Material-UI.
 
-<!-- ![travis build](https://img.shields.io/travis/DCCS-IT-Business-Solutions/react-table-semantic-ui.svg?style=flat-square)
-![npm version](https://img.shields.io/npm/v/@dccs/react-table-semantic-ui.svg?style=flat-square) -->
+<!-- ![travis build](https://img.shields.io/travis/mvp-react/react-table-semantic-ui.svg?style=flat-square)
+![npm version](https://img.shields.io/npm/v/@mvp-react/react-table-semantic-ui.svg?style=flat-square) -->
 
 ## Usage
 

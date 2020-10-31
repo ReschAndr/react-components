@@ -1,16 +1,17 @@
 {
-  "name": "@mvp-react/react-datagrid-plain",
+  "name": "@mvp-react/react-datagrid-mui",
   "version": "0.1.2",
-  "description": "A light datagrid build upon react-table-plain for React.",
+  "description": "A light datagrid build upon react-table-plain for React in a Material-UI theme.",
   "main": "lib/index.js",
   "scripts": {
     "watch": "tsc --watch",
-    "build": "run-s lint test transpile",
+    "build": "npm-run-all -s lint transpile",
     "transpile": "tsc",
     "lint": "tslint ./src/**/*.ts*",
     "test": "jest --runInBand --coverage",
     "storybook": "start-storybook -p 6006 -c .storybook",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "db": "json-server --watch db/db.json -p 5000"
   },
   "repository": {
     "type": "git",
@@ -30,19 +31,21 @@
   "author": "Stephan Meißner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mvp-react/react-components/packages/issues"
+    "url": "https://github.com/mvp-react/react-components/issues"
   },
-  "homepage": "https://github.com/mvp-react/react-components/packages/react-datagrid-plain#readme",
-  "dependencies": { "@mvp-react/react-table-plain": "workspace:*"},
+  "homepage": "https://github.com/mvp-react/react-components/packages/react-datagrid-mui#readme",
+  "dependencies": {},
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "@material-ui/core": "4.4.2",
+    "@material-ui/icons": "4.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
+    "@mvp-react/react-datagrid-plain": "workspace:*",
     "@mvp-react/react-table-mui": "workspace:*",
     "@mvp-react/react-table-plain": "workspace:*",
-    "@mvp-react/react-table-semantic-ui": "workspace:*",
     "@material-ui/core": "^4.3.1",
     "@material-ui/icons": "^4.2.1",
     "@storybook/addon-actions": "^5.1.10",

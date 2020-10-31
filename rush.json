@@ -51,6 +51,12 @@
       "projectFolder": "packages/react-datagrid-plain",
       "reviewCategory": "production",
       "shouldPublish": true
+    },
+    {
+      "packageName": "@mvp-react/react-datagrid-mui",
+      "projectFolder": "packages/react-datagrid-mui",
+      "reviewCategory": "production",
+      "shouldPublish": true
     }
   ]
 }
