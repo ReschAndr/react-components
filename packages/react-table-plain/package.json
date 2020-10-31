@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ReschAndr/react-components.git"
+    "url": "git+https://github.com/mvp-react/react-components.git"
   },
   "keywords": [
     "npm",
@@ -29,9 +29,9 @@
   "author": "Stephan Meißner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ReschAndr/react-components/issues"
+    "url": "https://github.com/mvp-react/react-components/issues"
   },
-  "homepage": "https://github.com/ReschAndr/react-components/packages/react-table-plain#readme",
+  "homepage": "https://github.com/mvp-react/react-components/packages/react-table-plain#readme",
   "dependencies": {
     "lodash": "^4.17.15"
   },

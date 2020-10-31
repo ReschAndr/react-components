@@ -1,4 +1,4 @@
-<!-- # react-table-plain &middot; ![travis build](https://img.shields.io/travis/ReschAndr/react-components/react-table-plain.svg) ![npm version](https://img.shields.io/npm/v/@mvp-react/react-table-plain.svg) -->
+<!-- # react-table-plain &middot; ![travis build](https://img.shields.io/travis/mvp-react/react-components/react-table-plain.svg) ![npm version](https://img.shields.io/npm/v/@mvp-react/react-table-plain.svg) -->
 
 A NPM package that helps creating HTML tables in a React-way. It was partly inspired by [react-table](https://react-table.js.org).
 

@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ReschAndr/react-components.git"
+    "url": "git+https://github.com/mvp-react/react-components.git"
   },
   "keywords": [
     "npm",
@@ -30,9 +30,9 @@
   "author": "Stephan Meißner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ReschAndr/react-components/packages/react-datagrid-plain/issues"
+    "url": "https://github.com/mvp-react/react-components/packages/issues"
   },
-  "homepage": "https://github.com/ReschAndr/react-components/packages//react-datagrid-plain#readme",
+  "homepage": "https://github.com/mvp-react/react-components/packages/react-datagrid-plain#readme",
   "dependencies": { "@mvp-react/react-table-plain": "workspace:*"},
   "peerDependencies": {
     "react": "^16.13.1",

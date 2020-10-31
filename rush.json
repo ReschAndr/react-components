@@ -16,7 +16,7 @@
     "versionBumpCommitMessage": "Applying package updates. [skip-ci]"
   },
   "repository": {
-    "url": "https://github.com/ReschAndr/react-components.git",
+    "url": "https://github.com/mvp-react/react-components.git",
     "defaultBranch": "master",
     "defaultRemote": "origin"
   },
