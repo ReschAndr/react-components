@@ -1,0 +1,28 @@
+{
+  "name": "@mvp-react/react-datagrid-mui",
+  "entries": [
+    {
+      "version": "0.1.3",
+      "tag": "@mvp-react/react-datagrid-mui_v0.1.3",
+      "date": "Sat, 31 Oct 2020 08:40:44 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "init"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mvp-react/react-datagrid-plain\" to `0.1.3`"
+          },
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-mui\" to `0.1.3`"
+          },
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-plain\" to `0.1.3`"
+          }
+        ]
+      }
+    }
+  ]
+}
