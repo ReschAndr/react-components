@@ -1,0 +1,47 @@
+{
+  "name": "@mvp-react/react-datagrid-plain",
+  "entries": [
+    {
+      "version": "0.1.3",
+      "tag": "@mvp-react/react-datagrid-plain_v0.1.3",
+      "date": "Sat, 31 Oct 2020 08:40:44 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-plain\" to `0.1.3`"
+          },
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-mui\" to `0.1.3`"
+          },
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-plain\" to `0.1.3`"
+          },
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-semantic-ui\" to `0.1.3`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.2",
+      "tag": "@mvp-react/react-datagrid-plain_v0.1.2",
+      "date": "Sun, 25 Oct 2020 17:36:48 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-plain\" to `0.1.2`"
+          },
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-mui\" to `0.1.2`"
+          },
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-plain\" to `0.1.2`"
+          },
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-semantic-ui\" to `0.1.1`"
+          }
+        ]
+      }
+    }
+  ]
+}
