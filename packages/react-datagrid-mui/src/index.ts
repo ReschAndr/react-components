@@ -1,1 +1,1 @@
-export * from "./DataGridMui";
+export * from './DataGridMui';
