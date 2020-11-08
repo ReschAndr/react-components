@@ -15,8 +15,9 @@
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+	"types": ["react", "jest"]
   },
   "include": ["src/**/*"],
-  "exclude": ["src/**/__tests__/**/*"]
+  "exclude": ["src/**/__tests__/**/*","setupTests.js"]
 }

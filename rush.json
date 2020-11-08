@@ -3,7 +3,7 @@
   "rushVersion": "5.34.4",
   "pnpmVersion": "4.14.4",
   "pnpmOptions": {
-    "strictPeerDependencies": true,
+    "strictPeerDependencies": false,
     "resolutionStrategy": "fast",
     "preventManualShrinkwrapChanges": true,
     "useWorkspaces": true
@@ -28,6 +28,12 @@
   },
   "variants": [],
   "projects": [
+    {
+      "packageName": "eslint-config-mvp-react",
+      "projectFolder": "packages/eslint-config-mvp-react",
+      "reviewCategory": "production",
+      "shouldPublish": true
+    },
     {
       "packageName": "@mvp-react/react-table-plain",
       "projectFolder": "packages/react-table-plain",

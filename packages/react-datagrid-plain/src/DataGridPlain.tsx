@@ -1,12 +1,12 @@
-import * as React from "react";
+import * as React from 'react';
 import {
   TablePlain,
   IColDef,
   ITablePlainProps as ITableProps,
   SortDirection,
-} from "@mvp-react/react-table-plain";
-import { IState } from "./IState";
-import { IDataState, IUseDataStateProps, useDataState } from "./useDataState";
+} from '@mvp-react/react-table-plain';
+import { IState } from './IState';
+import { IDataState, IUseDataStateProps, useDataState } from './useDataState';
 
 export type OnLoadData = (
   page: number,
@@ -141,7 +141,7 @@ export function DataGridPlain(
       return props.renderLoading();
     }
 
-    let loadingText = "Loading...";
+    let loadingText = 'Loading...';
     if (props.texts && props.texts.loadingText != null) {
       loadingText = props.texts.loadingText;
     }
@@ -150,12 +150,12 @@ export function DataGridPlain(
   }
 
   function renderError() {
-    let errorText = "Die Daten konnten nicht geladen werden.";
+    let errorText = 'Die Daten konnten nicht geladen werden.';
     if (props.texts && props.texts.errorText != null) {
       errorText = props.texts.errorText;
     }
 
-    let reloadText = "Neu laden";
+    let reloadText = 'Neu laden';
     if (props.texts && props.texts.reloadText != null) {
       reloadText = props.texts.reloadText;
     }
@@ -164,7 +164,7 @@ export function DataGridPlain(
       return props.renderError(load, errorText, reloadText);
     }
     return (
-      <p style={{ width: "100%", background: "red", padding: 16 }}>
+      <p style={{ width: '100%', background: 'red', padding: 16 }}>
         <p>{errorText}</p>
         <p>
           <button onClick={() => load()}>{reloadText}</button>
@@ -195,7 +195,7 @@ export function DataGridPlain(
         handleChangeRowsPerPage,
       });
     }
-    let pagingText = "No paging available right now. Check back later...";
+    let pagingText = 'No paging available right now. Check back later...';
     if (props.texts && props.texts.pagingText != null) {
       pagingText = props.texts.pagingText;
     }
@@ -208,7 +208,7 @@ export function DataGridPlain(
   }
 
   return (
-    <div style={{ position: "relative", overflowX: "auto", width: "100%" }}>
+    <div style={{ position: 'relative', overflowX: 'auto', width: '100%' }}>
       {loading && renderLoading()}
 
       {renderTable()}

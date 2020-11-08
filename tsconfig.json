@@ -26,6 +26,6 @@
     "experimentalDecorators": true,
 	"types": ["react", "jest"]
   },
-  "include": ["src/**/*"],
-  "exclude": ["src/**/__tests__/**/*"]
+  "include": ["./packages/**/src/**/*"],
+  "exclude": ["./packages/**/src/__tests__/**/*","setupTests.js"]
 }

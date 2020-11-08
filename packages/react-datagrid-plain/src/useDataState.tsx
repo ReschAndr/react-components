@@ -1,7 +1,7 @@
-import * as React from "react";
-import { SortDirection } from "@mvp-react/react-table-plain";
-import { OnLoadData } from ".";
-import { IState } from "./IState";
+import * as React from 'react';
+import { SortDirection } from '@mvp-react/react-table-plain';
+import { OnLoadData } from '.';
+import { IState } from './IState';
 
 export interface IDataState extends IState {
   setTotal: (total: number) => void;
@@ -28,7 +28,7 @@ export interface IDataState extends IState {
 }
 
 export interface IPersistState {
-  store: "localStorage" | "sessionStorage";
+  store: 'localStorage' | 'sessionStorage';
   uniqueID: string;
 }
 
@@ -45,13 +45,13 @@ export interface IUseDataStateProps {
 
 const getStateFromStore = (props?: IUseDataStateProps) => {
   if (props && props.persistState && props.persistState.uniqueID) {
-    if (props.persistState.store === "localStorage") {
+    if (props.persistState.store === 'localStorage') {
       const state = localStorage.getItem(props.persistState.uniqueID);
 
       if (state) {
         return JSON.parse(state) as IDataState;
       }
-    } else if (props.persistState.store === "sessionStorage") {
+    } else if (props.persistState.store === 'sessionStorage') {
       const state = sessionStorage.getItem(props.persistState.uniqueID);
 
       if (state) {
@@ -115,7 +115,7 @@ export function useDataState(props: IUseDataStateProps) {
     let s: SortDirection | undefined;
 
     if (orderBy && orderBy === ob) {
-      s = sort === "desc" ? "asc" : "desc";
+      s = sort === 'desc' ? 'asc' : 'desc';
     }
 
     setOrderBy(ob);
@@ -142,7 +142,7 @@ export function useDataState(props: IUseDataStateProps) {
     rowsPerPage,
     page,
     orderBy,
-    sort === "desc",
+    sort === 'desc',
     reloadDummy,
     // Why JSON.stringify?
     // The way the useEffect dependency array works is by checking for strict (===) equivalency between all of the items in the array from the previous render and the new render.
@@ -198,12 +198,12 @@ export function useDataState(props: IUseDataStateProps) {
 
   React.useEffect(() => {
     if (props && props.persistState && props.persistState.uniqueID) {
-      if (props.persistState.store === "localStorage") {
+      if (props.persistState.store === 'localStorage') {
         localStorage.setItem(
           props.persistState.uniqueID,
           JSON.stringify(state)
         );
-      } else if (props.persistState.store === "sessionStorage") {
+      } else if (props.persistState.store === 'sessionStorage') {
         sessionStorage.setItem(
           props.persistState.uniqueID,
           JSON.stringify(state)

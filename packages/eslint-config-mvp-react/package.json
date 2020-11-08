@@ -1,0 +1,66 @@
+{
+  "name": "eslint-config-mvp-react",
+  "version": "0.1.5",
+  "description": "collection of eslint packages and rule used by all mvp-react packages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvp-react/react-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mvp-react/react-components/issues"
+  },
+  "homepage": "https://github.com/mvp-react/react-components/packages/react-table-plain#readme",
+  "scripts": {
+    "build": ""
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "4.2.0",
+    "@typescript-eslint/parser": "4.2.0",
+    "eslint": "7.10.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-airbnb-typescript": "11.0.0",
+    "eslint-config-jest-enzyme": "7.1.2",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-config-react-app": "6.0.0",
+    "eslint-import-resolver-typescript": "2.3.0",
+    "eslint-plugin-flowtype": "5.2.0",
+    "eslint-plugin-formatjs": "^2.7.12",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.21.2",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "prettier": "2.0.5",
+    "prettier-eslint": "10.1.1",
+    "prettier-eslint-cli": "5.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.2.0",
+    "@typescript-eslint/parser": "4.2.0",
+    "eslint": "7.10.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-airbnb-typescript": "11.0.0",
+    "eslint-config-jest-enzyme": "7.1.2",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-config-react-app": "6.0.0",
+    "eslint-import-resolver-typescript": "2.3.0",
+    "eslint-plugin-flowtype": "5.2.0",
+    "eslint-plugin-formatjs": "^2.7.12",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.21.2",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "prettier": "2.0.5",
+    "prettier-eslint": "10.1.1",
+    "prettier-eslint-cli": "5.0.0"
+  },
+  "author": "ReschAndr",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "react",
+    "typescript"
+  ]
+}

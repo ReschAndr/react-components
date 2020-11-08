@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-mvp-react",
+  "entries": [
+    {
+      "version": "0.1.5",
+      "tag": "eslint-config-mvp-react_v0.1.5",
+      "date": "Sun, 08 Nov 2020 09:36:40 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "init"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { SortDirection } from "@mvp-react/react-table-plain";
+import { SortDirection } from '@mvp-react/react-table-plain';
 
 export const createSource = (
   get: (url: string) => Promise<any>,
@@ -10,16 +10,16 @@ export const createSource = (
   sort: SortDirection | undefined,
   filter?: { [key: string]: any }
 ) => {
-  const urlSep = url.indexOf("?") === -1 ? "?" : "&";
+  const urlSep = url.indexOf('?') === -1 ? '?' : '&';
   const p = new Promise<{ total: number; data: any[] }>((res, rej) => {
     get(
       `${url}${urlSep}page=${page}&count=${rowsPerPage}${
-        orderBy != null ? "&orderBy=" + orderBy : ""
-      }${sort != null ? "&desc=" + (sort === "desc") : ""}${serializeFilter(
+        orderBy != null ? '&orderBy=' + orderBy : ''
+      }${sort != null ? '&desc=' + (sort === 'desc') : ''}${serializeFilter(
         filter || {}
       )}`
     )
-      .then(resp => res({ data: resp.data, total: resp.total }))
+      .then((resp) => res({ data: resp.data, total: resp.total }))
       .catch(rej);
   });
 
@@ -36,16 +36,16 @@ export const createJsonServerSource = (
   sort: SortDirection | undefined,
   filter?: { [key: string]: any }
 ) => {
-  const urlSep = url.indexOf("?") === -1 ? "?" : "&";
+  const urlSep = url.indexOf('?') === -1 ? '?' : '&';
   const p = new Promise<{ total: number; data: any[] }>((res, rej) => {
     get(
       `${url}${urlSep}_page=${page}&_limit=${rowsPerPage}&{
         orderBy != null ? "_sort=" + orderBy : ""
       }
-      }${sort != null ? "&_order=" + sort : ""}
+      }${sort != null ? '&_order=' + sort : ''}
       ${serializeFilter(filter || {})}`
     )
-      .then(resp => res({ data: resp, total: resp.length }))
+      .then((resp) => res({ data: resp, total: resp.length }))
       .catch(rej);
   });
 
@@ -53,7 +53,7 @@ export const createJsonServerSource = (
 };
 
 export function serializeFilter(filter: { [key: string]: any }) {
-  let query = "";
+  let query = '';
   // tslint:disable-next-line:forin
   for (const x in filter) {
     if (filter[x] != null) {
