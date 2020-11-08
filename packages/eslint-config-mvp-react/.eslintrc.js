@@ -1,6 +1,11 @@
+require('@rushstack/eslint-config/patch/modern-module-resolution');
+
 module.exports = {
-  plugins: ['prettier', '@typescript-eslint', 'formatjs'],
-  extends: ['airbnb-typescript', 'react-app', 'prettier', 'jest-enzyme'],
+  root: true,
+  extends: [
+    '@rushstack/eslint-config/profile/web-app',
+    '@rushstack/eslint-config/mixins/react',
+  ],
   settings: {
     'import/resolver': {
       typescript: {
