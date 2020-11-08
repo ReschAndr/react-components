@@ -1,0 +1,13 @@
+{
+  "Home.testMessage1": "my first test message",
+  "Home.testMessage2": "my second test message",
+  "header.title": "Typescript Material UI",
+  "home.calories": "Calories",
+  "home.carbs": "Carbs (g)",
+  "home.dessert_100g_servings": "Dessert (100g servings)",
+  "home.fat": "Fat (g)",
+  "home.protein": "Protein (g)",
+  "notFound": "not found",
+  "sideNav.fullStackDev": "Fullstack Magician",
+  "sideNav.maxMustermann": "Max Mustermann"
+}

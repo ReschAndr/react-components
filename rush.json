@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
   "rushVersion": "5.34.4",
-  "pnpmVersion": "4.14.4",
+  "pnpmVersion": "5.11.0",
   "pnpmOptions": {
     "strictPeerDependencies": false,
     "resolutionStrategy": "fast",
@@ -33,6 +33,12 @@
       "projectFolder": "packages/eslint-config-mvp-react",
       "reviewCategory": "production",
       "shouldPublish": true
+    },
+    {
+      "packageName": "documentation-app",
+      "projectFolder": "documentation/app",
+      "reviewCategory": "production",
+      "shouldPublish": false
     },
     {
       "packageName": "@mvp-react/react-table-plain",
