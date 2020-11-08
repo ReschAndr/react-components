@@ -29,6 +29,12 @@
   "variants": [],
   "projects": [
     {
+      "packageName": "eslint-config-mvp-react",
+      "projectFolder": "packages/eslint-config-mvp-react",
+      "reviewCategory": "production",
+      "shouldPublish": true
+    },
+    {
       "packageName": "@mvp-react/react-table-plain",
       "projectFolder": "packages/react-table-plain",
       "reviewCategory": "production",

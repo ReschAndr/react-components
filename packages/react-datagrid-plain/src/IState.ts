@@ -1,4 +1,4 @@
-import { SortDirection } from "@mvp-react/react-table-plain";
+import { SortDirection } from '@mvp-react/react-table-plain';
 
 export interface IState {
   rowsPerPage: number;
