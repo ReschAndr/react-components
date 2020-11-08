@@ -24,7 +24,7 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "experimentalDecorators": true,
-	"types": ["react", "jest"]
+    "types": ["react", "jest"]
   },
   "include": ["src/**/*"],
   "exclude": ["src/**/__tests__/**/*"]
