@@ -1,4 +1,5 @@
 {
+  "root":true,
   "plugins": ["prettier", "@typescript-eslint", "formatjs"],
   "extends": ["airbnb-typescript", "react-app", "prettier"],
   "parser": "@typescript-eslint/parser",

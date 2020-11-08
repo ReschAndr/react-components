@@ -48,7 +48,7 @@ export function useRoutes() {
     });
   }
 
-  getBreadcrumbName(route:)
+  // getBreadcrumbName(route:)
 
   return {
     routes,
