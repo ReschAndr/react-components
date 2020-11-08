@@ -1,6 +1,6 @@
 {
   "name": "@mvp-react/react-datagrid-plain",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A light datagrid build upon react-table-plain for React.",
   "main": "lib/index.js",
   "scripts": {
@@ -35,26 +35,28 @@
     "url": "https://github.com/mvp-react/react-components/packages/issues"
   },
   "homepage": "https://github.com/mvp-react/react-components/packages/react-datagrid-plain#readme",
-  "dependencies": { "@mvp-react/react-table-plain": "workspace:*"},
+  "dependencies": {
+    "@mvp-react/react-table-plain": "workspace:*"
+  },
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
+    "@material-ui/core": "^4.3.1",
+    "@material-ui/icons": "^4.2.1",
     "@mvp-react/react-table-mui": "workspace:*",
     "@mvp-react/react-table-plain": "workspace:*",
     "@mvp-react/react-table-semantic-ui": "workspace:*",
-    "@material-ui/core": "^4.3.1",
-    "@material-ui/icons": "^4.2.1",
     "@storybook/addon-actions": "^5.1.10",
     "@storybook/addon-links": "^5.1.10",
     "@storybook/addons": "^5.1.10",
+    "@storybook/node-logger": "^6.0.22",
     "@storybook/react": "^5.1.10",
-    "@storybook/node-logger":"^6.0.22",
-    "@types/jest": "26.0.15",
     "@types/cheerio": "0.22.7",
-    "@types/node":"^12.12.2",
+    "@types/jest": "26.0.15",
+    "@types/node": "^12.12.2",
     "@types/react": "^16.9.41",
     "@types/react-dom": "^16.9.8",
     "@types/storybook__react": "^4.0.2",
@@ -63,16 +65,16 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "7.10.0",
-    "eslint-config-mvp-react":"workspace:*",
-    "prettier": "2.0.5",
+    "eslint-config-mvp-react": "workspace:*",
     "jest": "^26.1.0",
     "npm-run-all": "^4.1.5",
+    "prettier": "2.0.5",
     "react": "^16.13.1",
     "react-docgen-typescript-loader": "^3.1.0",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
     "react-dom": "^16.13.1",
-    "regenerator-runtime":"^0.13.7",
+    "regenerator-runtime": "^0.13.7",
     "typescript": "^3.9.6",
-    "webpack":"^4.44.2"
+    "webpack": "^4.44.2"
   }
 }

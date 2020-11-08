@@ -2,6 +2,32 @@
   "name": "@mvp-react/react-datagrid-mui",
   "entries": [
     {
+      "version": "0.1.6",
+      "tag": "@mvp-react/react-datagrid-mui_v0.1.6",
+      "date": "Sun, 08 Nov 2020 09:36:40 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "move to eslint"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-plain\" to `0.1.5`"
+          },
+          {
+            "comment": "Updating dependency \"@mvp-react/react-table-mui\" to `0.1.5`"
+          },
+          {
+            "comment": "Updating dependency \"@mvp-react/react-datagrid-plain\" to `0.1.5`"
+          },
+          {
+            "comment": "Updating dependency \"eslint-config-mvp-react\" to `0.1.5`"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.1.5",
       "tag": "@mvp-react/react-datagrid-mui_v0.1.5",
       "date": "Sun, 08 Nov 2020 09:35:24 GMT",

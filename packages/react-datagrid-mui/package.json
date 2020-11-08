@@ -1,6 +1,6 @@
 {
   "name": "@mvp-react/react-datagrid-mui",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A light datagrid build upon react-table-plain for React in a Material-UI theme.",
   "main": "lib/index.js",
   "scripts": {
@@ -37,8 +37,8 @@
   },
   "homepage": "https://github.com/mvp-react/react-components/packages/react-datagrid-mui#readme",
   "dependencies": {
-    "@mvp-react/react-table-plain": "workspace:*",
-    "@mvp-react/react-table-mui": "workspace:*"
+    "@mvp-react/react-table-mui": "workspace:*",
+    "@mvp-react/react-table-plain": "workspace:*"
   },
   "peerDependencies": {
     "@material-ui/core": "4.4.2",
@@ -66,10 +66,10 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "7.10.0",
-    "eslint-config-mvp-react":"workspace:*",
-    "prettier": "2.0.5",
+    "eslint-config-mvp-react": "workspace:*",
     "jest": "^26.1.0",
     "npm-run-all": "^4.1.5",
+    "prettier": "2.0.5",
     "react": "^16.13.1",
     "react-docgen-typescript-loader": "^3.1.0",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
