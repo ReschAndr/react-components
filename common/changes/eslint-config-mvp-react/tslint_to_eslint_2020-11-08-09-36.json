@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "eslint-config-mvp-react",
+      "comment": "init",
+      "type": "patch"
+    }
+  ],
+  "packageName": "eslint-config-mvp-react",
+  "email": "reschan12345@gmail.com"
+}

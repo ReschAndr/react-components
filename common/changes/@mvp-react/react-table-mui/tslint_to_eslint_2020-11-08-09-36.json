@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@mvp-react/react-table-mui",
+      "comment": "move to eslint",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@mvp-react/react-table-mui",
+  "email": "reschan12345@gmail.com"
+}
