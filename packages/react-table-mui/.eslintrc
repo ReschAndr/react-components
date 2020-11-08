@@ -1,8 +1,0 @@
-{
-  "plugins": ["prettier", "@typescript-eslint", "formatjs"],
-  "extends": ["mvp-react"],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  }
-}
